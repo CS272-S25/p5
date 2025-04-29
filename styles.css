@@ -1,11 +1,12 @@
 body {
   font-family: "Arial";
   color: black;
-  width: 600px;
+  width: 100%;
 }
 
 h1 {
   color: red;
+  text-align: center;
 }
 
 h2 {
@@ -122,3 +123,4 @@ p {
   color: #c70039;
   transition: all 0.3 ease;
 }
+
