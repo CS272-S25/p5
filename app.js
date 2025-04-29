@@ -1,5 +1,5 @@
-const products = [
-    {
+const products = {
+    notebooks [
       name: "Spiral Notebook",
       image: "images/notebook1.jpg",
       description: "College-ruled, 100 pages, assorted colors.",
@@ -70,8 +70,44 @@ const products = [
       image: "images/binder5.jpg",
       description: "Extra strong spine, reinforced rings.",
       price: "$5.89",
-    }
-  ];
+  },
+    PensandPencils:[
+{
+  name: "Pilot, G2 Premium Gel Roller Pens, Bold Point 1 mm, Pack of 2, Black",
+  image:"image/G2 Premium pens",
+  description:"Smooth & Long-lasting: Enjoy a smooth writing experience thanks to the gel ink that glides effortlessly across paper; G2 has been proven to be the longest-lasting gel ink pen so you can write more without having to refill often ",
+  price:"$2.98"
+},
+
+{
+  name: "Sharpie S-Gel, Gel Pens, Drawing Pens, Writing Pens, Gel Ink Pens For Journaling, Coloring Pens, Bold Point (1.0Mm), Black Ink Gel Pen, 12 count",
+  image:"image/Sharpie Premium pens",
+  description:"Sharpie Quality: Reliable performance and best-in-class ink quality.",
+  price:"$12.65"
+},
+
+{
+  name: "Pilot, G2 Premium Gel Roller Pens, Bold Point 1 mm, Pack of 2, Black",
+  image:"image/G2 Premium pens",
+  description:"Smooth & Long-lasting: Enjoy a smooth writing experience thanks to the gel ink that glides effortlessly across paper; G2 has been proven to be the longest-lasting gel ink pen so you can write more without having to refill often ",
+  price:"$2.98"
+},
+
+{
+  name: "Paper Mate Clearpoint Mechanical Pencils 0.7mm, HB #2 Pencil Lead, 2 Pencils, School Supplies, Teacher Supplies, Drawing Pencils, Sketching Pencils, Assorted Barrel Colors 6 count",
+  image:"image/Colorful paper mate clearpoint 0.7 mechanical pencils",
+  description:"Mechanical pencils that create clear, precise lines every time",
+  price:"$12.99"
+},
+
+{
+  name: "Ticonderoga Wood-Cased Pencils, Unsharpened, 2 HB Soft, Yellow, 12 Count",
+  image:"image/Ticonderoga #2 Pencils",
+  description:"EXCLUSIVE #2 GRAPHITE FORMULA: Proprietary graphite formula mined from carefully controlled sources provides extra smooth performance; thick graphite core delivers broad consistent lines ",
+  price:"$2.94"
+}
+ }];
+        
   
   const productContainer = document.getElementById("productContainer");
   
