@@ -1,3 +1,14 @@
+fetch('https://fakestoreapi.com/products')
+.then(res => res.json())
+.then(products => {
+  products.forEach(product => {
+    const col = document.createElement("div");
+    col.className = "col-md-3 mb-4";
+
+    
+  })
+})
+
 const products = {
     notebooks:[
       {
