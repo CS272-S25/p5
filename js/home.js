@@ -11,9 +11,9 @@ fetch("https://fakestoreapi.com/products?limit=4")
 
 /**
  * This function creates a product cart HTML element using te provided product data. This function
- * generates a card layout that includes the product image, title, description, price, and an
- * add to cart button. When the button is clicked the product is added to the shopping cart in
- * localStorage. If the product is already in the cart the quantity is increased by 1.
+ * generates a card layout that includes the product image, title, star rating, description (with a "Read
+ * More toggle"), price, and an add to cart button. When the button is clicked the product is added to the
+ * shopping cart in localStorage. If the product is already in the cart the quantity is increased by 1.
  * 
  * @param {object} productData - The product data object containing the product's details 
  * such as id, title, price, description, and image.
