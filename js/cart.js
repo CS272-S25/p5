@@ -1,7 +1,22 @@
-function cart(){
+
+/**
+ * This function updates the shopping cart on the checkout page. It uses retrieves
+ * cart items from localStorage and clears the existing cart. It also creates and appends 
+ * element for each item in the cart. The function calculates and updates the total cart price
+ * for everything added and adds event listeners to remove items.
+ * 
+ * @returns {void}
+ * 
+ */
+
+function updateCart(){
     const cartItems = JSON.parse(localStorage.getItem('cart')) || [];
     const cartContainer = document.getElementById('cart-items');
     const totalPriceElement = document.getElementById('total-price');
+
+    while (cartContainer.firstChild) {
+        cartContainer.removeChild(cartContainer.firstChild);
+    }
 
     let totalPrice = 0;
 
@@ -55,11 +70,28 @@ function cart(){
     totalPriceElement.textContent = `${totalPrice.toFixed(2)}`;
 }
 
+/**
+ * This function removes a product from the shopping cart based on its ID or reduces the quantity
+ * it is greater than 1. It retrieves the current cart from localStorage and filters out the item
+ * with the specified product ID. It the saves the updated cart back to localStorage and calls 
+ * updateCart() to refresh the cart.
+ * 
+ * @param {number} productId - The ID of the product to remove from the cart.
+ * @returns {void}
+ */
 function removeFromCart(productId) {
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
-    cart = cart.filter(item => item.id !== productId);
+    const product = cart.find(item => item.id === productId);
+
+    if (product) {
+        if (product.quantity > 1) {
+            product.quantity -= 1;
+        } else {
+            cart = cart.filter(item => item.id !== productId);
+        }
+    }
     localStorage.setItem('cart', JSON.stringify(cart));
-    cart();
+    updateCart();
 }
 
-cart();
+updateCart();
