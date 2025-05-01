@@ -9,6 +9,13 @@ fetch("https://fakestoreapi.com/products/category/electronics")
     })
 });
 
+/**
+ * 
+ * @param {object} productData - An object containing the product's details including the
+ * id, title, price, description, image, and rating with rate as the value.
+ * @returns {HTMLElement} A structured Bootstrap-styles HTML element representing a product card.
+ */
+
 function createProductCard(productData) {
     const newColDivNode = document.createElement("div");
     newColDivNode.className = ('col-12 col-md-6 col-lg-4');
