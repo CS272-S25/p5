@@ -1,9 +1,9 @@
 
 /**
  * This function updates the shopping cart on the checkout page. It uses retrieves
- * cart items from localStorage and clears the existing cart. It also creates and appends 
- * element for each item in the cart. The function calculates and updates the total cart price
- * for everything added and adds event listeners to remove items.
+ * cart items from localStorage and clears the existing cart display. It also dynamically creates 
+ * and appends element for each item in the cart. The function calculates and updates the total
+ * cart price for everything added and adds event listeners to remove items.
  * 
  * @returns {void}
  * 
