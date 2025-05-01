@@ -29,7 +29,7 @@ function createProductCard(productData) {
 
     const newPriceNode = document.createElement("p");
     newPriceNode.classList.add("card-text");
-    newPriceNode.innerHTML = `<strong>$${productData.price}</strong>`;
+    newPriceNode.innerHTML = `<strong>$${productData.price.toFixed(2)}</strong>`;
 
     const newDescNode = document.createElement("p");
     newDescNode.classList.add("card-text");
@@ -40,20 +40,25 @@ function createProductCard(productData) {
     addToCartBtn.textContent = "Add to Cart";
 
     addToCartBtn.addEventListener("click", () => {
-        let cart = JSON.parse(localStorage.getItem("cart"))
+        let cart = JSON.parse(localStorage.getItem("cart")) || [];
         const exists = cart.find(item => item.id === productData.id);
-        if (!exists) {
-            cart.push({...productData, quantity: 1});
-            localStorage.setItem("cart", JSON.stringify(cart));
-            addToCartBtn.textContent = "Added!";
-            addToCartBtn.classList.replace("btn-outline-primary", "btn-success");
+        if (exists) {
+            exists.quantity += 1;
+        } else {
+            cart.push({
+                id: productData.id,
+                title: productData.title,
+                price: productData.price,
+                image: productData.image,
+                quantity: 1 
+            });
         }
-    })
+        localStorage.setItem("cart", JSON.stringify(cart));
+        alert(`${productData.title} added to cart!`);
+    });
 
     const bodyDivNode = document.createElement("div");
     bodyDivNode.className = ("card-body 0-2");
-
-
     bodyDivNode.appendChild(newTitleNode);
     bodyDivNode.appendChild(newDescNode);
     bodyDivNode.appendChild(newPriceNode);
