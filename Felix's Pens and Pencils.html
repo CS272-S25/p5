@@ -5,41 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Felix's Pens and Pencils</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet" />
     <script src="app.js" defer></script>
 </head>
-
-<body>
+<body data-page="pensandpencils">
     <header>
         <nav class="navbar">
             <div class="navbar__container">
                 <a href="HomePage.html" id="navbar__logo">EduEssentials</a>
-                <div class="navbar__toggle" id="mobile-menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
                 <ul class="navbar__menu">
-                    <li class="navbar__item">
-                        <a href="HomePage.html" class="navbar__links"> Home </a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="Chersa's Tech.html" class="navbar__links"> Technology </a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="Felix's Pens and Pencils.html" class="navbar__links"> Pens & Pencils </a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="Jacob's Notebooks and Binders.html" class="navbar__links"> Notebooks & Binders </a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="Andy's Accessories.html" class="navbar__links"> Accessories </a>
-                    </li>
-                    <li class="navbar__btn">
-                        <a href="Checkout.html" class="button"> Checkout </a>
-                    </li>
+                    <li class="navbar__item"><a href="HomePage.html" class="navbar__links">Home</a></li>
+                    <li class="navbar__item"><a href="Chersa's Tech.html" class="navbar__links">Technology</a></li>
+                    <li class="navbar__item"><a href="Felix's Pens and Pencils.html" class="navbar__links">Pens & Pencils</a></li>
+                    <li class="navbar__item"><a href="Jacob's Notebooks and Binders.html" class="navbar__links">Notebooks & Binders</a></li>
+                    <li class="navbar__item"><a href="Andy's Accessories.html" class="navbar__links">Accessories</a></li>
+                    <li class="navbar__btn"><a href="Checkout.html" class="button">Checkout</a></li>
                 </ul>
             </div>
         </nav>
@@ -47,8 +28,6 @@
 
     <main class="container mt-4">
         <h1>Felix's Pens and Pencils</h1>
-
-        <!-- Search Form -->
         <form id="filterForm" class="row mb-4">
             <div class="col-md-6">
                 <label for="search" class="form-label">Search by keyword</label>
@@ -58,11 +37,7 @@
                 <button type="submit" class="btn btn-success w-100">Filter</button>
             </div>
         </form>
-
-        <!-- Product Display -->
         <div class="row" id="productContainer"></div>
     </main>
-
-    <script src="js/app.js"></script>
 </body>
 </html>
