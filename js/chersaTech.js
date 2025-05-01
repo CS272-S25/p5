@@ -10,6 +10,10 @@ fetch("https://fakestoreapi.com/products/category/electronics")
 });
 
 /**
+ * This function creates a card that is styled using bootstrap made up of information from the
+ * product data.The card includes the product image, title, price, description with a button with
+ * a "Read More" and "Read Less" option, rating displayed as stars, and an "Add to Cart Button".
+ * When click, the button stores the item in localStorage and updates the quantity if needed.
  * 
  * @param {object} productData - An object containing the product's details including the
  * id, title, price, description, image, and rating with rate as the value.
