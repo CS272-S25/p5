@@ -95,3 +95,29 @@ function removeFromCart(productId) {
 }
 
 updateCart();
+
+document.getElementById("checkout-btn").addEventListener("click", checkoutCart)
+
+/**
+ * This function simulates the checkout process. It clears the cart from localStorage,
+ * shows a confirmation alert, and then redirects the user back to the homepage.
+ * 
+ * @returns {void}
+ */
+
+function checkoutCart() {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+    if (cart.length === 0) {
+        alert("Your cart is empty!");
+        return
+    }
+
+    localStorage.removeItem('cart');
+
+    updateCart();
+
+    alert("Thank you for your purchase!")
+
+    window.location.href = "index.html"
+}
