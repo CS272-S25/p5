@@ -154,11 +154,88 @@ const products = {
   accessories: [
     {
       name: "Wisconsin Badger Stickers",
-      image: "images/wisconsin_badger_stickers.jpg",
+      image: "https://m.media-amazon.com/images/I/510oQKKMWZL._AC_SX679_.jpg",
       description: "Badger stickers to show your school pride!",
       price: "$8.99",
       link: "https://a.co/d/e50wuZy"
-    }
+    },
+    {
+      name: "PANGTON VILLA Led Strip Lights 8.2ft for 40-60in TV, USB LED TV Backlight Kit with Remote - 16 Color 5050 LEDs Bias Lighting for HDTV",
+      image: "https://m.media-amazon.com/images/I/41b4ft3xKKL._AC_SX679,50_.jpg",
+      description: "LED Lights to show off your room to your friends.",
+      price: "$7.99",
+      link: "https://a.co/d/56vmZ6S"
+    },
+    {
+      name: "Power Strip Surge Protector, BESHON 5Ft Extension Cord, 6 Outlets with 3 USB Ports(1 USB C Outlet), 3-Side Outlet Extender, Wall Mount, Compact for Travel, Home, School, College Dorm Room and Office",
+      image: "https://m.media-amazon.com/images/I/418mZaLp9JL._AC_SX679_.jpg",
+      description: "Can never have too many ports for charging or for your PC.",
+      price: "$9.99",
+      link: "https://a.co/d/1dkr882"
+    },
+    {
+      name: "Bukere Laundry Backpack Bag for College Students Dorm Essentials, Heavy Duty Hanging Laundry Bag with Adjustable Shoulder Straps, Laundry Bag for Girl, Guys, Women, Men",
+      image: "https://m.media-amazon.com/images/I/31nflWn04QL._AC_SX679_.jpg",
+      description: "A laundry bag for those weeks worth of laundry not washed frequently.",
+      price: "$7.79",
+      link: "https://a.co/d/ePRKSsq"
+    },
+    {
+      name: "TUMELLA Strongest Windproof Travel Umbrella (Compact, Superior & Beautiful), Small Strong but Light Portable and Automatic Folding Rain Umbrella, Durable Premium Grip, Fits Car & Backpack",
+      image: "https://m.media-amazon.com/images/I/4123JiXT+KL._AC_SX679,50_.jpg",
+      description: "An umbrella for during the rainy and windy seasons.",
+      price: "$18.99",
+      link: "https://a.co/d/0oytzbe"
+    },
+    {
+      name: "VEEKTOMX Portable Charger with Built-in Cables 10000mAh Power Bank for iPhone Slim Fast Charge USB C Battery Pack Travel Essentials Powerbank Compatible with iPhone, Samsung, Android, etc",
+      image: "https://m.media-amazon.com/images/I/31ZHolH7pwL._AC_SX679,50_.jpg",
+      description: "A portable charger incase you forget to charge your phone.",
+      price: "$21.98",
+      link: "https://a.co/d/3jsJWE4"
+    },
+    {
+      name: "cozoo Desk Lamps for Home Office,Modern LED Desk Lamp for Dorm with 2 USB Charging Ports/Type C Port,2 AC Outlets,3 Lighting Mode,3 Level Brightness,Touch Control/Timer/Eye-Caring Foldable Table Lamp",
+      image: "https://m.media-amazon.com/images/I/41pRTCKKSmL._AC_SX679_.jpg",
+      description: "A desk lamp for those late night study sessions.",
+      price: "$22.99",
+      link: "https://a.co/d/0Z1udgG"
+    },
+    {
+      name: "COLORCORAL Cleaning Gel Universal Dust Cleaner for PC Keyboard Car Detailing Office Electronics Laptop Dusting Kit Computer Dust Remover, Computer Gaming Car Accessories, Gift for Men Women 160g",
+      image: "https://m.media-amazon.com/images/I/41ZqEVGrmNL._AC_SX679_.jpg",
+      description: "Cleaning gel for cleaning off dust from your keyboard.",
+      price: "$6.98",
+      link: "https://a.co/d/ixMemZS"
+    },
+    {
+      name: "BANGE Business Smart Backpack Waterproof fit 15.6 Inch Laptop Backpack with USB Charging Port,Travel Durable Backpack",
+      image: "https://m.media-amazon.com/images/I/41cgfiVptgL._AC_SX679_.jpg",
+      description: "A waterproof backpack that can provide for all your needs.",
+      price: "$69.99",
+      link: "https://a.co/d/9pkpw66"
+    },
+    {
+      name: "39-Piece Household Tools Kit Essential Home Repair Set with Plastic Toolbox Ideal for College Students, Home Use & More",
+      image: "https://m.media-amazon.com/images/I/41UFoSBfRoL._AC_SX679_.jpg",
+      description: "An essential toolkit for all your DIY projects.",
+      price: "$16.99",
+      link: "https://a.co/d/hHa64Oq"
+    },
+    {
+      name: "Closet Organizers and Storage,College Dorm Room Essentials,Pack of 6 Multifunctional Organizer Magic Space Saving Hangers with 9 Holes Storage Organization for Wardrobe Closet",
+      image: "https://m.media-amazon.com/images/I/51F0YglHepL._AC_SX679_.jpg",
+      description: "Hangers to save much more wardrobe space.",
+      price: "$13.99",
+      link: "https://a.co/d/g8p5hhL"
+    },
+    {
+      name: "Ophanie 3x5 Rug, Bedside Preppy Dorm Area Rug, College Essentials Non Slip Grey Small Carpets for Bedroom, Anti Slip Fluffy Gray Living Room Rugs Home Decor Aesthetic, Nursery",
+      image: "https://m.media-amazon.com/images/I/51RFZbmJRJL._AC_SX679_.jpg",
+      description: "A stylish rug to have next to your bed.",
+      price: "$17.99",
+      link: "https://a.co/d/fkMjVAV"
+    },
   ]
 };
 
