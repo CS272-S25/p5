@@ -2,73 +2,73 @@ const products = {
   notebooks: [
     {
       name: "Spiral Notebook",
-      image: "images/notebook1.jpg",
+      image: "https://m.media-amazon.com/images/I/714gcIZmZML._AC_UL640_FMwebp_QL65_.jpg",
       description: "College-ruled, 100 pages, assorted colors.",
       price: "$2.99",
     },
     {
       name: "3-Ring Binder",
-      image: "images/binder1.jpg",
+      image: "https://m.media-amazon.com/images/I/31ztnUlsg-L._SY445_SX342_QL70_FMwebp_.jpg",
       description: "1.5 inch, durable plastic, comes with pockets.",
       price: "$4.49",
     },
     {
       name: "Composition Notebook",
-      image: "images/notebook2.jpg",
+      image: "https://m.media-amazon.com/images/I/81LjL8LQtIL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
       description: "Wide-ruled, 80 pages, marble cover.",
       price: "$1.99",
     },
     {
       name: "Leather Journal",
-      image: "images/notebook3.jpg",
+      image: "https://m.media-amazon.com/images/I/71-t+mZNV+L._AC_SY300_SX300_.jpg",
       description: "Hardcover with lined pages and elastic strap.",
       price: "$6.49",
     },
     {
       name: "Mini Pocket Notebook",
-      image: "images/notebook4.jpg",
+      image: "https://m.media-amazon.com/images/I/71N9-EkmS6L._AC_SX679_.jpg",
       description: "3x5 inch size, set of 3 small notebooks.",
       price: "$3.29",
     },
     {
       name: "Binder with Zipper",
-      image: "images/binder2.jpg",
+      image: "https://m.media-amazon.com/images/I/91UzGrcSgvL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
       description: "2-inch ring, zippered closure, with file compartments.",
       price: "$7.99",
     },
     {
       name: "Eco-Friendly Notebook",
-      image: "images/notebook5.jpeg",
+      image: "https://m.media-amazon.com/images/I/71BWToSQ-SL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
       description: "Recycled paper, kraft cover, college-ruled.",
       price: "$2.49",
     },
     {
       name: "Decorative Binder",
-      image: "images/binder3.jpg",
+      image: "https://m.media-amazon.com/images/I/61w5NTkkZML.__AC_SY300_SX300_QL70_FMwebp_.jpg",
       description: "Floral print, 1-inch rings, perfect for school.",
       price: "$3.99",
     },
     {
       name: "5-Subject Notebook",
-      image: "images/notebook6.jpg",
+      image: "https://m.media-amazon.com/images/I/81QgjDqTWUL._AC_SX679_.jpg",
       description: "Thick notebook with tabs for subjects.",
       price: "$4.99",
     },
     {
       name: "Clear View Binder",
-      image: "images/binder4.jpg",
+      image: "https://m.media-amazon.com/images/I/71UwcyqNBmL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
       description: "Allows custom cover insert, 1.5-inch rings.",
       price: "$4.79",
     },
     {
       name: "Graph Paper Notebook",
-      image: "images/notebook7.jpeg",
+      image: "https://m.media-amazon.com/images/I/714c99F7YJL._SY425_.jpg",
       description: "Perfect for math & engineering students.",
       price: "$3.59",
     },
     {
       name: "Heavy-Duty Binder",
-      image: "images/binder5.jpg",
+      image: "https://m.media-amazon.com/images/I/91ERHUu37TS.__AC_SX300_SY300_QL70_FMwebp_.jpg",
       description: "Extra strong spine, reinforced rings.",
       price: "$5.89",
     }
@@ -224,3 +224,4 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   }
 });
+
