@@ -9,7 +9,7 @@
 EduEssentials is a HTML/CSS/JavaScript e-commerce website project designed to provide students with an organized and functional platform to browse and explore essential school supplies for college. This project simulates a realistic online shopping experience for items related to technology, general school supplies, and accessories.
 
 # Purpose 
-The purpose of this project is to focus on building a website using HTML/CSS/JS.
+The purpose of this project is to focus on building a website using HTML/CSS/JS. We implemented interactive features such as filtering, dynamic content updates, and used the fetch() API to load real product data from an external source on the homepage and Chersa's Tech page.
 
 # Expectations 
 Groups will collaboratively choose the specific domain, focus, and content of their HTML/CSS/JS website but, at a minimum, it will include...
@@ -49,7 +49,7 @@ The final deliverable must be a professional, well-executed website that demonst
 # Technologies Used
 - HTML5
 - CSS3 + Bootstrap 5
-- JavaScript (DOM, localStorage)
+- JavaScript (DOM, localStorage, fetch API)
 - Git & GitHub Pages
 
 # License
